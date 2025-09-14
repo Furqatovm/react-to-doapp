@@ -54,7 +54,7 @@ const Todo2 = () => {
 
 
   return (
-    <div className='w-[60%] m-auto py-5 max-md:w-[80%]'>
+    <div className='w-[60%] m-auto py-5 max-md:w-[80%] max-sm:w-[95%]'>
 
         <form onSubmit={submit} className='flex flex-col gap-[1rem]'>
             <input ref={nameRef}  type="Name" placeholder='Enter any task' required className='w-full outline-[blue] border-[2px] border-[blue] py-[10px] px-[1rem] rounded-[8px]' autoComplete='off'/>
